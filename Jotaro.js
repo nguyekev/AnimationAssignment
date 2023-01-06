@@ -4,7 +4,7 @@ class Jotaro{
         this.animation = new Animator(ASSET_MANAGER.getAsset("./img/run.png"), -1, 2, 48, 148, 8, .06);
         this.x = 0;
         this.y = 483;
-        this.speed = 100;
+        this.speed = 200;
     };
 
     update(){
